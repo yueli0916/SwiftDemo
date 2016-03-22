@@ -9,11 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    private func sayHello()
+    {
+        print("private say hello")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         print("hello world")
+        sayHello()
     }
 
     override func didReceiveMemoryWarning() {
